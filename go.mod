@@ -1,4 +1,4 @@
-module gorm.io/plugin/soft_delete
+module github.com/optible/soft_delete
 
 go 1.15
 
