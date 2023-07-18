@@ -13,8 +13,8 @@ import (
 type DeletedAt uint
 
 var (
-	FlagDeleted = 1
-	FlagActived = 0
+	FlagDeleted = 0
+	FlagActived = 1
 )
 
 func (DeletedAt) QueryClauses(f *schema.Field) []clause.Interface {
